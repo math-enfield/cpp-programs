@@ -8,9 +8,9 @@ int main(){
     while(x == 'y'){
         float a,b,result;
         char operation;
-        cout<<"Enter Number A and B for the calculation";
+        cout<<"Enter Number A and B for the calculation: ";
         cin>>a>>b;
-        cout<<"Enter the operation you want to perform(+,-,/,*)";
+        cout<<"Enter the operation you want to perform(+,-,/,*): ";
         cin>>operation;
         if (operation=='+'){
             result = a+b;
