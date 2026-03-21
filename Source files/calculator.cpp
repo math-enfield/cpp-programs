@@ -4,7 +4,7 @@
 using namespace std;
 
 int main(){
-    char x;
+    char x='y';
     while(x == 'y'){
         float a,b,result;
         char operation;
