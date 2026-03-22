@@ -7,9 +7,10 @@ int main(){
     int c, num;
     cout << "Enter the number of Fibonacci sequence you want to print: ";
     cin >> num;
-    for (int i=0;i<=num;i++){
+    cout<<"01";
+    for (int i=0;i<num-2;i++){
         c=b+a;
-        cout << a << b << c;
+        cout << c;
         a=b;
         b=c;
     }
