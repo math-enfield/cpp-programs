@@ -4,7 +4,7 @@ using namespace std;
 
 void Table(int z){
     int multiple;
-    for (int i=0; i=10; i++) {
+    for (int i=0; i<=10;i++) {
         multiple = i*z;
         cout << z << 'x' << i << '=' << multiple << endl;
     }
