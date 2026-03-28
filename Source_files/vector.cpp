@@ -5,12 +5,19 @@ using namespace std;
 
 int main(){
     int n,sum=0;
-    vector<int> arr(n);
+
+    cout << "Enter the number of elements in the array: ";
+    cin >> n;
+
+    vector<int> arr;
+
     cout << "Enter the elements in the array: ";
     for(int i=0 ; i < n;i++){
-        cin >> arr[i];
-        sum += arr[i];
+        int x;
+        cin >> x;
+        arr.push_back(x);
+        sum += x;
     }
-    cout << sum << endl;
+    cout << "The sum of the elements is "<<sum << endl;
     return 0;
 }
